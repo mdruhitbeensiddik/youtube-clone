@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="Styles/youtube-body.css">
+    <link rel="stylesheet" href="Styles/general.css">
+    <link rel="stylesheet" href="Styles/header.css">
+    <link rel="stylesheet" href="Styles/sidebar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;500;700&family=Work+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="sidebar">
+        <div class="sidebar-link">
+            <img src="sidebar-icon/home.svg" alt="">
+            <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="sidebar-icon/explore.svg" alt="">
+            <div>Explore</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="sidebar-icon/subscriptions.svg" alt="">
+            <div>Subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="sidebar-icon/originals.svg" alt="">
+            <div>Originals</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="sidebar-icon/youtube-music.svg" alt="">
+            <div>Youtube Music</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="sidebar-icon/library.svg" alt="">
+            <div>Library</div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="left-section">
+            <div>
+                <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="">
+                <img class="youtube-logo" src="icons/youtube-logo.svg" alt="">
+            </div>
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button">
+                <img class="search-icon" src="icons/search.svg" alt="">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-search-button">
+                <img class="voice-search-icon" src="icons/notifications.svg " alt="">
+                <div class="tooltip">Search With Your Voice</div>
+            </button>
+        </div>
+        <div class="right-section">
+            <div class="upload-icon-container">
+
+                <img class="upload-icon" src="icons/upload.svg" alt="">
+                <div class="tooltip">Create</div>
+
+            </div>
+            <div class="apps-container">
+                <img class="youtube-apps-icon" src="icons/youtube-apps.svg" alt="">
+                <div class="tooltip">Apps</div>
+            </div>
+            <div class="notification-icon-container">
+                <img class="notifi-icon" src="icons/notifi.svg" alt="">
+                <div class="notification-number">9</div>
+                <div class="tooltip">Notifications</div>
+            </div>
+            <img class="current-user-picture" src="pictures/propic.jpg" alt="">
+        </div>
+
+    </div>
+
+
+    <div class="video-grid">
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="pictures/thumbnail-1.webp" alt="thumbnail-1">
+                <div class="video-time">14:20</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="pictures/channel-1.jpeg" alt="">
+                </div>
+
+                <div class="video-info">
+                    <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                    <p class="video-author">Marques Brownlee</p>
+                    <p class="video-stats">3.4M views &#183; 6 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="pictures/thumbnail-3.webp" alt="thumbnail-1">
+                <div class="video-time">1:23:20</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="pictures/yahiaamin.jpg" alt="">
+                </div>
+
+                <div class="video-info">
+                    <p class="video-title">কোরআন ও মনোবিজ্ঞান|(পর্ব-২৪)</p>
+                    <p class="video-author">Yahia Amin</p>
+                    <p class="video-stats">4M views &#183; 15 days ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="pictures/thumbnail-4.webp" alt="thumbnail-1">
+                <div class="video-time">7:20</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="pictures/khalidfarhan.jpg" alt="">
+                </div>
+
+                <div class="video-info">
+                    <p class="video-title">Talk About 5 Business Idea!</p>
+                    <p class="video-author">Khalid Farhan</p>
+                    <p class="video-stats">399k views &#183; 1 days ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="pictures/thumbnail-5.webp" alt="thumbnail-1">
+                <div class="video-time">4:20</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="pictures/apnacollege.jpg" alt="">
+                </div>
+
+                <div class="video-info">
+                    <p class="video-title">Talking About 5 Tech Jobs Salary...
+                        |Coding | Programming |
+                    </p>
+                    <p class="video-author">Shakib Ul Alom</p>
+                    <p class="video-stats">32M views &#183; 7 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="pictures/thumbnail-6.webp" alt="thumbnail-1">
+                <div class="video-time">17:27</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="pictures/design.jpg" alt="">
+                </div>
+
+                <div class="video-info">
+                    <p class="video-title">Let's Do This!! Very Satisfying Design Skill</p>
+                    <p class="video-author">Ishtiak Ahmed</p>
+                    <p class="video-stats">84M views &#183; 2 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="pictures/thumbnail-7.webp" alt="thumbnail-1">
+                <div class="video-time">22:20</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="pictures/zee.jpg" alt="">
+                </div>
+
+                <div class="video-info">
+                    <p class="video-title">Batul The Great | Episode - 223 | New Story</p>
+                    <p class="video-author">Batul The Great</p>
+                    <p class="video-stats">3M views &#183; 9 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="pictures/thumbnail-8.webp" alt="thumbnail-1">
+                <div class="video-time">14:20</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="pictures/davidbombal.jpg" alt="">
+                </div>
+
+                <div class="video-info">
+                    <p class="video-title">Talk About Top 5 Skill in 2023!</p>
+                    <p class="video-author">David Bombal</p>
+                    <p class="video-stats">199k views &#183; 1 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="pictures/thumbnail-9.webp" alt="thumbnail-1">
+                <div class="video-time">22:20</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="pictures/fireship.jpg" alt="">
+                </div>
+
+                <div class="video-info">
+                    <p class="video-title">100+ JavaScript Concepts You Need To Know....</p>
+                    <p class="video-author">FireShip</p>
+                    <p class="video-stats">2.9k views &#183;2 hours ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="pictures/thumbnail-10.webp" alt="thumbnail-1">
+                <div class="video-time">14:23:20</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="pictures/learn.jpg" alt="">
+                </div>
+
+                <div class="video-info">
+                    <p class="video-title">Don't Worry About Git & GitHub. Here the full course for free!!!</p>
+                    <p class="video-author">Learn With Sumit</p>
+                    <p class="video-stats">220M views &#183; 2 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="pictures/thumbnail-1.webp" alt="thumbnail-1">
+                <div class="video-time">14:20</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="pictures/channel-1.jpeg" alt="">
+                </div>
+
+                <div class="video-info">
+                    <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                    <p class="video-author">Marques Brownlee</p>
+                    <p class="video-stats">3.4M views &#183; 6 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="pictures/thumbnail-9.webp" alt="thumbnail-1">
+                <div class="video-time">22:20</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="pictures/fireship.jpg" alt="">
+                </div>
+
+                <div class="video-info">
+                    <p class="video-title">100+ JavaScript Concepts You Need To Know....</p>
+                    <p class="video-author">FireShip</p>
+                    <p class="video-stats">2.9k views &#183;2 hours ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="pictures/thumbnail-8.webp" alt="thumbnail-1">
+                <div class="video-time">14:20</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="pictures/davidbombal.jpg" alt="">
+                </div>
+
+                <div class="video-info">
+                    <p class="video-title">Talk About Top 5 Skill in 2023!</p>
+                    <p class="video-author">David Bombal</p>
+                    <p class="video-stats">199k views &#183; 1 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="pictures/thumbnail-7.webp" alt="thumbnail-1">
+                <div class="video-time">22:20</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="pictures/zee.jpg" alt="">
+                </div>
+
+                <div class="video-info">
+                    <p class="video-title">Batul The Great | Episode - 223 | New Story</p>
+                    <p class="video-author">Batul The Great</p>
+                    <p class="video-stats">3M views &#183; 9 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="pictures/thumbnail-1.webp" alt="thumbnail-1">
+                <div class="video-time">14:20</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="pictures/channel-1.jpeg" alt="">
+                </div>
+
+                <div class="video-info">
+                    <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                    <p class="video-author">Marques Brownlee</p>
+                    <p class="video-stats">3.4M views &#183; 6 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="pictures/thumbnail-3.webp" alt="thumbnail-1">
+                <div class="video-time">1:23:20</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="pictures/yahiaamin.jpg" alt="">
+                </div>
+
+                <div class="video-info">
+                    <p class="video-title">কোরআন ও মনোবিজ্ঞান|(পর্ব-২৪)</p>
+                    <p class="video-author">Yahia Amin</p>
+                    <p class="video-stats">4M views &#183; 15 days ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="pictures/thumbnail-4.webp" alt="thumbnail-1">
+                <div class="video-time">7:20</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="pictures/khalidfarhan.jpg" alt="">
+                </div>
+
+                <div class="video-info">
+                    <p class="video-title">Talk About 5 Business Idea!</p>
+                    <p class="video-author">Khalid Farhan</p>
+                    <p class="video-stats">399k views &#183; 1 days ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="pictures/thumbnail-5.webp" alt="thumbnail-1">
+                <div class="video-time">4:20</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="pictures/apnacollege.jpg" alt="">
+                </div>
+
+                <div class="video-info">
+                    <p class="video-title">Talking About 5 Tech Jobs Salary...
+                        |Coding | Programming |
+                    </p>
+                    <p class="video-author">Shakib Ul Alom</p>
+                    <p class="video-stats">32M views &#183; 7 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="pictures/thumbnail-6.webp" alt="thumbnail-1">
+                <div class="video-time">17:27</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="pictures/design.jpg" alt="">
+                </div>
+
+                <div class="video-info">
+                    <p class="video-title">Let's Do This!! Very Satisfying Design Skill</p>
+                    <p class="video-author">Ishtiak Ahmed</p>
+                    <p class="video-stats">84M views &#183; 2 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="pictures/thumbnail-7.webp" alt="thumbnail-1">
+                <div class="video-time">22:20</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="pictures/zee.jpg" alt="">
+                </div>
+
+                <div class="video-info">
+                    <p class="video-title">Batul The Great | Episode - 223 | New Story</p>
+                    <p class="video-author">Batul The Great</p>
+                    <p class="video-stats">3M views &#183; 9 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="pictures/thumbnail-8.webp" alt="thumbnail-1">
+                <div class="video-time">14:20</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="pictures/davidbombal.jpg" alt="">
+                </div>
+
+                <div class="video-info">
+                    <p class="video-title">Talk About Top 5 Skill in 2023!</p>
+                    <p class="video-author">David Bombal</p>
+                    <p class="video-stats">199k views &#183; 1 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="pictures/thumbnail-9.webp" alt="thumbnail-1">
+                <div class="video-time">22:20</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="pictures/fireship.jpg" alt="">
+                </div>
+
+                <div class="video-info">
+                    <p class="video-title">100+ JavaScript Concepts You Need To Know....</p>
+                    <p class="video-author">FireShip</p>
+                    <p class="video-stats">2.9k views &#183;2 hours ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="pictures/thumbnail-10.webp" alt="thumbnail-1">
+                <div class="video-time">14:23:20</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="pictures/learn.jpg" alt="">
+                </div>
+
+                <div class="video-info">
+                    <p class="video-title">Don't Worry About Git & GitHub. Here the full course for free!!!</p>
+                    <p class="video-author">Learn With Sumit</p>
+                    <p class="video-stats">220M views &#183; 2 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="pictures/thumbnail-1.webp" alt="thumbnail-1">
+                <div class="video-time">14:20</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="pictures/channel-1.jpeg" alt="">
+                </div>
+
+                <div class="video-info">
+                    <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                    <p class="video-author">Marques Brownlee</p>
+                    <p class="video-stats">3.4M views &#183; 6 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="pictures/thumbnail-9.webp" alt="thumbnail-1">
+                <div class="video-time">22:20</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="pictures/fireship.jpg" alt="">
+                </div>
+
+                <div class="video-info">
+                    <p class="video-title">100+ JavaScript Concepts You Need To Know....</p>
+                    <p class="video-author">FireShip</p>
+                    <p class="video-stats">2.9k views &#183;2 hours ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="pictures/thumbnail-8.webp" alt="thumbnail-1">
+                <div class="video-time">14:20</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="pictures/davidbombal.jpg" alt="">
+                </div>
+
+                <div class="video-info">
+                    <p class="video-title">Talk About Top 5 Skill in 2023!</p>
+                    <p class="video-author">David Bombal</p>
+                    <p class="video-stats">199k views &#183; 1 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="pictures/thumbnail-7.webp" alt="thumbnail-1">
+                <div class="video-time">22:20</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="pictures/zee.jpg" alt="">
+                </div>
+
+                <div class="video-info">
+                    <p class="video-title">Batul The Great | Episode - 223 | New Story</p>
+                    <p class="video-author">Batul The Great</p>
+                    <p class="video-stats">3M views &#183; 9 months ago</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="pictures/thumbnail-9.webp" alt="thumbnail-1">
+                <div class="video-time">22:20</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="pictures/fireship.jpg" alt="">
+                </div>
+
+                <div class="video-info">
+                    <p class="video-title">100+ JavaScript Concepts You Need To Know....</p>
+                    <p class="video-author">FireShip</p>
+                    <p class="video-stats">2.9k views &#183;2 hours ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="pictures/thumbnail-4.webp" alt="thumbnail-1">
+                <div class="video-time">7:20</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="pictures/khalidfarhan.jpg" alt="">
+                </div>
+
+                <div class="video-info">
+                    <p class="video-title">Talk About 5 Business Idea!</p>
+                    <p class="video-author">Khalid Farhan</p>
+                    <p class="video-stats">399k views &#183; 1 days ago</p>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</body>
+
+</html>
